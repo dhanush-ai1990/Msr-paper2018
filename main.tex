@@ -1,0 +1,175 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%2345678901234567890123456789012345678901234567890123456789012345678901234567890
+%        1         2         3         4         5         6         7         8
+
+\documentclass[letterpaper, 10 pt, conference]{ieeeconf}  % Comment this line out
+\usepackage{subfig}
+\usepackage{graphicx}
+                                                          % if you need a4paper
+%\documentclass[a4paper, 10pt, conference]{ieeeconf}      % Use this line for a4
+                                                          % paper
+
+\IEEEoverridecommandlockouts                              % This command is only
+                                                          % needed if you want to
+                                                          % use the \thanks command
+\overrideIEEEmargins
+% See the \addtolength command later in the file to balance the column lengths
+% on the last page of the document
+
+
+
+% The following packages can be found on http:\\www.ctan.org
+%\usepackage{graphics} % for pdf, bitmapped graphics files
+%\usepackage{epsfig} % for postscript graphics files
+%\usepackage{mathptmx} % assumes new font selection scheme installed
+%\usepackage{times} % assumes new font selection scheme installed
+%\usepackage{amsmath} % assumes amsmath package installed
+%\usepackage{amssymb}  % assumes amsmath package installed
+\usepackage{mdframed}
+\usepackage{ntheorem}
+\usepackage{subfig}
+
+\usepackage{framed}
+\title{\LARGE \bf
+Predicting the Programming Languages Tags in Stack Overflow
+}
+
+%\author{ \parbox{3 in}{\centering Huibert Kwakernaak*
+%         \thanks{*Use the $\backslash$thanks command to put information here}\\
+%         Faculty of Electrical Engineering, Mathematics and Computer Science\\
+%         University of Twente\\
+%         7500 AE Enschede, The Netherlands\\
+%         {\tt\small h.kwakernaak@autsubmit.com}}
+%         \hspace*{ 0.5 in}
+%         \parbox{3 in}{ \centering Pradeep Misra**
+%         \thanks{**The footnote marks may be inserted manually}\\
+%        Department of Electrical Engineering \\
+%         Wright State University\\
+%         Dayton, OH 45435, USA\\
+%         {\tt\small pmisra@cs.wright.edu}}
+% * <kamel@uvic.ca> 2017-12-15T23:17:23.178Z:
+%
+% ^.
+%}
+
+\author{Authors}
+
+
+\begin{document}
+
+
+
+\maketitle
+\thispagestyle{empty}
+\pagestyle{empty}
+\theoremseparator{.}
+\newmdtheoremenv{theo}{RQ}
+\newmdtheoremenv{res}{RQ}
+\newmdtheoremenv{box1}{}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{abstract} %Rewrite
+ 
+
+\medbreak
+\end{abstract}
+
+\begin{keywords}
+Stack Overflow, Machine learning, Tag, Code Snippet, Programming Languages and Natural Language Processing.
+\end{keywords}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\medbreak
+\section{INTRODUCTION}
+
+\section{BACKGROUD AND RELATED WORK}
+Predicting a programming language from a given text and from code snippets has been a rising topic of interest in the research community. Despite of a lot of interesting contributions to this field, we are still lacking behind in predicting the exact programming language just on the basis of text or the code snippet. 
+
+\section{Methodology}
+
+
+\section{Results and Discussions}% page 6-8
+
+
+\section{Threats to Validity}
+
+
+\section{CONCLUSIONS}%Needs to be done
+
+
+
+
+
+\addtolength{\textheight}{-12cm}   % This command serves to balance the column lengths
+                                  % on the last page of the document manually. It shortens
+                                  % the textheight of the last page by a suitable amount.
+                                  % This command does not take effect until the next page
+                                  % so it should come on the page before the last. Make
+                                  % sure that you do not shorten the textheight too much.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\medbreak
+\section*{APPENDIX}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+\begin{thebibliography}{99}%page10
+\medbreak
+\bibitem{c1} A. K. Saha, R. K. Saha, and K. A. Schneider, “A discriminative model approach for suggesting tags automatically for stack overflow questions,” in Proceedings of the International Workshop on Mining Software Repositories. IEEE Press, 2013, pp. 73–76.
+\medbreak
+\bibitem{c2} C. Stanley and M. D. Byrne. Predicting Tags for StackOverflow Posts. In
+Proceedings of ICCM 2013 (12th International Conference on Cognitive Modeling), 2013.
+\medbreak
+\bibitem{c3} S. M. Nasehi, J. Sillito, F. Maurer, and C. Burns, “What makes a good code example? A study of programming Q\&A in StackOverflow”, in Proc. ICSM, pages 25–35, 2012.
+\medbreak
+\bibitem{c4} J. Brandt, P. J. Guo, J. Lewenstein, M. Dontcheva, and S. R. Klemmer, “Two Studies of Opportunistic Programming: Interleaving Web Foraging, Learning, and Writing Code,” in Proceedings of CHI 2009, New York, NY, USA, 2009, pp. 1589–1598.
+\medbreak
+\bibitem{c5} C. Treude, O. Barzilay, and M.-A. Storey, “How Do Programmers Ask and Answer Questions on the Web?” in Proceedings of ICSE 2011, New York, NY, USA, 2011, pp. 804–807.
+\medbreak
+\bibitem{c6}C. McMillan, M. Grechanik, D. Poshyvanyk, Q. Xie, and C. Fu, “Portfolio: A Search Engine for Finding Functions and Their Usages,” in Proceedings of ICSE 2011, 2011, pp. 1043–1045.
+\medbreak
+\bibitem{c7}M. Revelle, B. Dit, and D. Poshyvanyk, “Using Data Fusion and Web Mining to Support Feature Location in Software,” in Proceedings of ICPC 2010, 2010, pp. 14–23.
+\medbreak
+\bibitem{c8} R. Holmes, R. J. Walker, and G. C. Murphy, “Strathcona Example Recommendation Tool,” in ACM SIGSOFT Software Engineering Notes, New York, NY, USA, 2005, pp. 237–240.
+\medbreak
+\bibitem{c9} B. Seaman, “The Information Gathering Strategies of Software Maintainers,” in Proceedings of ICSM 2002, 2002, pp. 141 – 149.
+\medbreak
+\bibitem{c10}V. S. Rekha, N. Divya, and P. S. Bagavathi. A hybrid auto-tagging system for stackoverflow forum questions. In Proceedings of the 2014 International Conference on Interdisciplinary Advances in Applied Computing, ICONIAAC ’14, pages 56:1–56:5, New York, NY, USA, 2014. ACM.
+\medbreak
+\bibitem{c11} Algorithmia, “ProgrammingLanguageIdentification tool", 2017. [Online]. Available: https://www.algorithmia.com.
+\medbreak
+\bibitem{c12}E.Loper, S. Bird, “NLTK: The natural language toolkit,” in Proc. Interact. Present. Sessions Association for Computational Linguistics, 2006, pp. 69–72.
+\medbreak
+\bibitem{c13}F.Pedregosa,G.Varoquaux,A.Gramfort,V.Michel,B.Thirion,O.Grisel, M. Blondel, P. Prettenhofer, R. Weiss, V. Dubourg, J. Vanderplas, A. Passos, D. Cournapeau, M. Brucher, M. Perrot, and E. Duchesnay, “Scikit-learn: Machine learning in Python,” Journal of Machine Learning
+Research, 2011.
+\medbreak
+\bibitem{c14}L. Mamykina, B. Manoim, M. Mittal, G. Hripcsak, and B. Hartmann, “Design Lessons from the Fastest Q\&A Site in the West,” in Proceedings of the 2011 annual conference on Human factors in computing systems, New York, NY, USA, 2011, pp. 2857–2866.
+
+\medbreak
+\bibitem{c15}M. Asaduzzaman, A. S. Mashiyat, C. K. Roy, and K. A. Schneider. Answering questions about unanswered questions of stack overflow. In MSR, 2013.
+
+\medbreak
+\bibitem{c16} SoStats, 2017. [Online]. Available: https://sostats.github.io/last30days/
+
+\medbreak
+\bibitem{c17} Quantcast, 2017. [Online]. Available: https://www.quantcast.com
+
+
+\end{thebibliography}
+
+
+
+
+\end{document}
